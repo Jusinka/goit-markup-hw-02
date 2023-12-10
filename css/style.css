@@ -1,9 +1,11 @@
 body{
-    font-family:'Roboto';
+    font-family:'Roboto' sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     font-weight:Regular;
+    color: #434455;
+    background-color:#FFFFFF;
     
 }
 address{
@@ -25,4 +27,24 @@ button{
 }
 button:hover{
     background-color: #404BBF;
+}
+.logo{
+    font-family:Raleway,sans-serif;
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform: uppercase;
+    justify-content:center;
+    color: #4D5AE5;
+}
+.logo_half{
+    color:#2e2f42;
+    font-family:Raleway;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo_info{
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }

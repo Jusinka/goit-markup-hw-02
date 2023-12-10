@@ -58,9 +58,6 @@ button:focus{
 .navigation:hover{
     color: #404bbf;
 }
-.navigation:focus{
-    color: #404bbf;
-}
 .addres_info:hover{
     color: #404bbf;
 }
@@ -102,11 +99,11 @@ button:focus{
     color: #2e2f42;
 }
 .paragraph{
+    font-weight:500px;
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
     color:#434455;
-    font-weight:500px;
 }
 .section_thee{
     background-color: #F4F4FD;

@@ -1,7 +1,7 @@
 body{
     color: #434455;
     background-color:#FFFFFF;
-    font-family:'Roboto' sans-serif;
+    font-family:Roboto,sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
@@ -46,5 +46,10 @@ button:hover{
 .logo_info{
     color:#F4F4FD;
     letter-spacing: 0.02em;
-    
+}
+.logo_half_footer{
+    color: #f4f4fd;
+}
+.footer{
+    background-color:#2e2f42;
 }

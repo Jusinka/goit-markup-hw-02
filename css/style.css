@@ -20,13 +20,16 @@ button{
     font-size:16px;
     line-height:24px;
     font-weight: 500;
-    letter-spacing:4%;
+    letter-spacing:0.04em;
     background-color: #4D5AE5;
     cursor:pointer ;
+    color: #FFFFFF;
 }
-button:hover{
+button:hover,
+button:focus{
     background-color: #404BBF;
 }
+
 .logo{
     font-family:Raleway,sans-serif;
     font-weight:700;
@@ -57,22 +60,22 @@ button:hover{
     font-weight: 500;
     font-size: 16px;
     line-height:1.5;
-    letter-spacing: 0.02em;
+    letter-spacing:0.02em;
     color: #2e2f42;
 }
-.navigation :hover,
-.navigation :focus{
+.navigation:hover,
+.navigation:focus{
     color: #404bbf;
+}
+.addres_info:hover,
+.addres_info:focus{
+    color:#404bbf;
 }
 .addres_info{
     font-size: 16px;
     line-height:1.5;
     letter-spacing:0.02em;
     color:#434455;
-}
-.addres_info :hover,
-.addres_info :focus{
-    color:#404bbf;
 }
 .title{
     font-size:36px;
@@ -81,4 +84,31 @@ button:hover{
     letter-spacing:0.02em;
     text-transform:capitalize;
     color: #2e2f42;
+}
+.addres_cursiv{
+    font-style: normal;
+}
+.main_section{
+    background-color: #2e2f42;
+}
+.main_title{
+    font-size:56px;
+    line-height:1.07;
+    text-align:center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.content{
+    font-weight: 500px;
+    font-size: 20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+}
+.paragraph{
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;
+    
 }

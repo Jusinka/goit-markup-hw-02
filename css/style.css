@@ -63,11 +63,15 @@ button:focus{
     letter-spacing:0.02em;
     color: #2e2f42;
 }
-.navigation:hover,
+.navigation:hover{
+    color: #404bbf;
+}
 .navigation:focus{
     color: #404bbf;
 }
-.addres_info:hover,
+.addres_info:hover{
+    color: #404bbf;
+}
 .addres_info:focus{
     color:#404bbf;
 }
@@ -110,5 +114,8 @@ button:focus{
     line-height:1.5;
     letter-spacing:0.02em;
     color:#434455;
-    
+    font-weight:500px;
+}
+.section_thee{
+    background-color: #F4F4FD;
 }

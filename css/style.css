@@ -7,14 +7,6 @@ body{
     letter-spacing: 2%;
     font-weight:Regular;
 }
-address{
-    color: #434455;
-}
-address:hover,
-address:active{
-    background: #9747FF;
-
-}
 button{
     font-family:Roboto,sans-serif;
     font-size:16px;
@@ -103,8 +95,8 @@ button:focus{
     color: #FFFFFF;
 }
 .content{
-    font-weight: 500px;
-    font-size: 20px;
+    font-weight:500px;
+    font-size:20px;
     line-height:1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
@@ -118,4 +110,7 @@ button:focus{
 }
 .section_thee{
     background-color: #F4F4FD;
+}
+.image{
+    background-color:#FFFFFF;
 }

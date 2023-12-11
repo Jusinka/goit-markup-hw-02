@@ -95,7 +95,7 @@ button:focus{
     color: #FFFFFF;
 }
 .content{
-    font:500px;
+    font-weight:500px;
     font-size:20px;
     line-height:1.2;
     letter-spacing:0.02em;
